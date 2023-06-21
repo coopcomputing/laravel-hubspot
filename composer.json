@@ -38,5 +38,7 @@
     "require-dev": {
         "orchestra/testbench": ">=3.4",
         "friendsofphp/php-cs-fixer": "^2.15"
-    }
+    },
+  "minimum-stability": "stable",
+  "prefer-stable": true    
 }
