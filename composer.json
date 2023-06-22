@@ -4,8 +4,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ross Cooper",
-            "email": "therossjcooper@gmail.com"
+            "name": "Cooper",
+            "email": "laravel_hubspot@coopcomputing.com"
         }
     ],
     "require": {
@@ -14,17 +14,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Rossjcooper\\LaravelHubSpot\\": "src/",
+            "CoopComputing\\LaravelHubSpot\\": "src/",
             "Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rossjcooper\\LaravelHubSpot\\HubSpotServiceProvider"
+                "CoopComputing\\LaravelHubSpot\\HubSpotServiceProvider"
             ],
             "aliases": {
-                "HubSpot": "Rossjcooper\\LaravelHubSpot\\Facades\\HubSpot"
+                "HubSpot": "CoopComputing\\LaravelHubSpot\\Facades\\HubSpot"
             }
         }
     },

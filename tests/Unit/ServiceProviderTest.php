@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use Illuminate\Support\Facades\Config;
-use Rossjcooper\LaravelHubSpot\HubSpot;
+use CoopComputing\LaravelHubSpot\HubSpot;
 use Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
