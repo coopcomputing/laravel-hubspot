@@ -1,6 +1,6 @@
 <?php
 
-namespace Rossjcooper\LaravelHubSpot;
+namespace CoopComputing\LaravelHubSpot;
 
 use GuzzleHttp\Client;
 use HubSpot\Discovery\Discovery;

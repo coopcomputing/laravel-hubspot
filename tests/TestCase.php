@@ -5,7 +5,7 @@ namespace Tests;
 use Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables;
 use Orchestra\Testbench\Bootstrap\LoadConfiguration;
 use Orchestra\Testbench\TestCase as OrchTestCase;
-use Rossjcooper\LaravelHubSpot\HubSpotServiceProvider;
+use CoopComputing\LaravelHubSpot\HubSpotServiceProvider;
 
 abstract class TestCase extends OrchTestCase
 {
